@@ -21,12 +21,12 @@ global.github=process.env.GITHUB|| "..";
 global.gurl  =process.env.GURL  || "..";
 global.website=process.env.GURL || "..." ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/kKb9d29/4fadb08e1a49f8949d72b968dbe102af.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "🄻🄴🄶🄴🄽🄳🄰🅁🅈" 
+global.caption = process.env.CAPTION || global.caption || "ＣＲＩＭＳＯＮ亗" 
 
 
-global.devs = "919403621818" // Developer Contact
+global.devs = "917559414182" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "919403621818";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "919403621818";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "917559414182";
 
 
 
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "YOU WILL ALWAYS REMEMBER ME" ,
+  caption : global.caption || "FOR MY CRIMSON" ,
   
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝚈",
-  botname : process.env.BOT_NAME  || "𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝚈",
-  ownername:process.env.OWNER_NAME|| "LEGEND",
+  botname : process.env.BOT_NAME  || "ＣＲＩＭＳＯＮ",
+  ownername:process.env.OWNER_NAME|| "ARYA",
 
 
   errorChat : process.env.ERROR_CHAT || "",
