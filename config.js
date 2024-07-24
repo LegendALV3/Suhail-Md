@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "..";
 global.gurl  =process.env.GURL  || "..";
 global.website=process.env.GURL || "..." ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/kKb9d29/4fadb08e1a49f8949d72b968dbe102af.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "LEGENDARY" 
+global.caption = process.env.CAPTION || global.caption || "MENACE" 
 
 
 global.devs = "2349156137725" // Developer Contact
@@ -74,8 +74,8 @@ module.exports = {
   
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "𝙻𝙴𝙶𝙴𝙽𝙳𝙰𝚁𝚈",
-  botname : process.env.BOT_NAME  || "RAY",
-  ownername:process.env.OWNER_NAME|| "TEDDY",
+  botname : process.env.BOT_NAME  || "Dfw",
+  ownername:process.env.OWNER_NAME|| "Menace",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -89,8 +89,8 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "AYANOKOJI"  ).toUpperCase(),
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
+  LANG: ( process.env.THEME ||  "GOJO"  ).toUpperCase(),
 
 
 
